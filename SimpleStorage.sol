@@ -17,7 +17,7 @@ contract SimpleStorage {
     // Person public bhoomi = Person(21, "Bhoomi");
 
     // modifying the state of the block - requires gas
-    function store(uint256 _favNumber) public {
+    function store(uint256 _favNumber) public virtual {
         myFavNumber = _favNumber;
     }
 
